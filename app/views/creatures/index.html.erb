@@ -1,0 +1,12 @@
+<h3> Creatures~~
+
+<%= link_to "", new_creature_path, class: 'btn btn-primary btn-xs glyphicon glyphicon-plus pull-right' %>
+</h3>
+
+<% @creatures.each do |creature| %>
+
+  <div class = "well">
+  <p> <%= creature.description %></p>
+  <em> Creature Name: <%= creature.name %> </em>
+  </div>
+  <% end %>
