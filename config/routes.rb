@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
 
   resources :creatures
+  resources :tags
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
