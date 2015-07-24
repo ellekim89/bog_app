@@ -17,10 +17,10 @@ class TagsController < ApplicationController
     redirect_to tags_path
   end
 
-  def destroy
-    tag.find(parans[:id]).delete
-    redirect_to tags_path
-  end
+  # def destroy
+  #   tag.find(params[:id]).delete
+  #   redirect_to tags_path
+  # end
 
 
   private
